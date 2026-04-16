@@ -1,1 +1,4 @@
-# Evaluating-AI-Models
+# Syed Javed CYFI 490 Forensic Incident Response - Capstone - Final Project (Evaluating AI Models for Business Name Detection in Mobile Databases)
+
+## Description
+This project evaluates the effectiveness of AI models in detecting business names within mobile application databases. Using a digital forensics approach, multiple SQLite databases were manually analyzed to create a ground-truth dataset of business names. These databases were then converted into CSV format and tested using AI models including ChatGPT, Grok, and Microsoft Copilot. The models’ performance was measured using precision, recall, and F1 score to determine how accurately they could identify known business names. The results highlight the potential of AI to assist forensic investigations, while also emphasizing the importance of data quality and structure in achieving reliable outcomes.
