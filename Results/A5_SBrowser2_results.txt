@@ -1,0 +1,22 @@
+DATABASE: A5_SBrowser2.csv
+
+GROUND TRUTH:
+- Samsung
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Samsung
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- Samsung
+NOT FOUND:
+- None
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- None
+NOT FOUND:
+- Samsung

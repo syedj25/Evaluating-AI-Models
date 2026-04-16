@@ -1,0 +1,52 @@
+DATABASE: A1_wa.csv
+
+GROUND TRUTH:
+- Wealth Builders Club
+- Million Marketing
+- Meta AI
+- Facebook
+- Café Chic
+- Deserted Earth
+- Master Kwon
+- million_millmarketing
+- Sheri’s Vlog
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Wealth Builders Club
+- Million Marketing
+- Meta AI
+- Facebook
+- Café Chic
+- Deserted Earth
+- Master Kwon
+- million_millmarketing
+- Sheri’s Vlog
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- Wealth Builders Club
+- Million Marketing
+- Meta AI
+- Facebook
+NOT FOUND:
+- Café Chic
+- Deserted Earth
+- Master Kwon
+- million_millmarketing
+- Sheri’s Vlog
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- Meta AI
+- Facebook
+- Café Chic
+- Deserted Earth
+- Master Kwon
+- million_millmarketing
+- Sheri’s Vlog
+NOT FOUND:
+- Wealth Builders Club
+- Million Marketing

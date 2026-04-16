@@ -1,0 +1,50 @@
+DATABASE: I3_sms.csv
+
+GROUND TRUTH:
+- Google
+- TikTok
+- Gmary Jewelry
+- Signal
+- Snapchat
+- Viber
+- AT&T
+- Randstad
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Google
+- TikTok
+- Gmary Jewelry
+- Signal
+- Snapchat
+- Viber
+- AT&T
+- Randstad
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- None
+NOT FOUND:
+- Google
+- TikTok
+- Gmary Jewelry
+- Signal
+- Snapchat
+- Viber
+- AT&T
+- Randstad
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- Google
+- TikTok
+- Gmary Jewelry
+- Signal
+- Snapchat
+- Viber
+- AT&T
+- Randstad
+NOT FOUND:
+- None

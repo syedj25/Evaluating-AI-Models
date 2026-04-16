@@ -1,0 +1,46 @@
+DATABASE: I1_ChatStorage.csv
+
+GROUND TRUTH:
+- crypto.com
+- Citigroup
+- Citi
+- WSJ News
+- Netflix
+- SkinnyFat Farms
+- Naked Tchopstix
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- crypto.com
+- Citigroup
+- Citi
+- WSJ News
+- Netflix
+- SkinnyFat Farms
+- Naked Tchopstix
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- None
+NOT FOUND:
+- crypto.com
+- Citigroup
+- Citi
+- WSJ News
+- Netflix
+- SkinnyFat Farms
+- Naked Tchopstix
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- crypto.com
+- Citigroup
+- Citi
+- WSJ News
+- Netflix
+- SkinnyFat Farms
+- Naked Tchopstix
+NOT FOUND:
+- None

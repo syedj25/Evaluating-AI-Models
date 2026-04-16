@@ -1,0 +1,52 @@
+DATABASE: A1_msgstore.csv
+
+GROUND TRUTH:
+- Bitcoin Masters – Jim Investment Team
+- Btcoin Masters – Jim Investment Team
+- Wealth Builders Club
+- Bitcoin Exchange
+- Btcoin Exchange
+- Btcoin Trading Center
+- OKX Exchange
+- Coinbase
+- Binance
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Wealth Builders Club
+- Bitcoin Exchange
+- Btcoin Exchange
+- Btcoin Trading Center
+- OKX Exchange
+- Coinbase
+- Binance
+NOT FOUND:
+- Bitcoin Masters – Jim Investment Team
+- Btcoin Masters – Jim Investment Team
+
+MODEL: Grok 4
+FOUND:
+- None
+NOT FOUND:
+- Bitcoin Masters – Jim Investment Team
+- Btcoin Masters – Jim Investment Team
+- Wealth Builders Club
+- Bitcoin Exchange
+- Btcoin Exchange
+- Btcoin Trading Center
+- OKX Exchange
+- Coinbase
+- Binance
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- Wealth Builders Club
+- Btcoin Trading Center
+- Coinbase
+- Binance
+- OKX Exchange
+NOT FOUND:
+- Bitcoin Masters – Jim Investment Team
+- Btcoin Masters – Jim Investment Team
+- Bitcoin Exchange
+- Btcoin Exchange

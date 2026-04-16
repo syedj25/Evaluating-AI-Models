@@ -1,0 +1,37 @@
+DATABASE: I4_CloudTabs.csv
+
+GROUND TRUTH:
+- Dickens Cider Company
+- Dickins Cider Company
+- Blue Bite
+- ravensmanorexperience.com
+- Raven’s Manor
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Dickens Cider Company
+- Dickins Cider Company
+- Blue Bite
+- ravensmanorexperience.com
+- Raven’s Manor
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- Dickins Cider Company
+- Blue Bite
+- ravensmanorexperience.com
+NOT FOUND:
+- Dickens Cider Company
+- Raven’s Manor
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- Dickens Cider Company
+- Dickins Cider Company
+- Blue Bite
+- ravensmanorexperience.com
+- Ravenâ€™s Manor
+NOT FOUND:
+- None

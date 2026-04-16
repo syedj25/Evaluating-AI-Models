@@ -1,0 +1,49 @@
+DATABASE: I4_History.csv
+
+GROUND TRUTH:
+- Ben Gurion Airport
+- Motorola
+- TomTom
+- Spirit Airlines
+- National Weather Service
+- Hersheypark
+- Port Authority of New York and New Jersey
+- A&E Nails
+
+MODEL: ChatGPT GPT-5.3
+FOUND:
+- Ben Gurion Airport
+- Motorola
+- TomTom
+- Spirit Airlines
+- National Weather Service
+- Hersheypark
+- Port Authority of New York and New Jersey
+- A&E Nails
+NOT FOUND:
+- None
+
+MODEL: Grok 4
+FOUND:
+- Hersheypark
+- National Weather Service
+- Spirit Airlines
+- Ben Gurion Airport
+- Motorola
+NOT FOUND:
+- TomTom
+- Port Authority of New York and New Jersey
+- A&E Nails
+
+MODEL: Microsoft 365 Copilot GPT-5
+FOUND:
+- None
+NOT FOUND:
+- Ben Gurion Airport
+- Motorola
+- TomTom
+- Spirit Airlines
+- National Weather Service
+- Hersheypark
+- Port Authority of New York and New Jersey
+- A&E Nails
