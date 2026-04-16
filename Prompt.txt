@@ -1,0 +1,21 @@
+Following Prompt was used with AI Models: Grok 4, ChatGPT GPT-5.3, Microsoft 365 Copilot GPT‑5
+
+You are a digital forensic analyst.
+
+I have uploaded:
+1) A CSV file exported from a mobile application database
+2) A TXT file containing a list of business names identified manually (ground truth)
+
+Task:
+- Check which business names from the TXT file appear anywhere in the CSV data.
+- Match case-insensitively.
+- Do NOT guess or infer new business names.
+
+Output format:
+1) Business names FOUND in the CSV
+2) Business names NOT FOUND in the CSV
+
+Rules:
+- Only search for names listed in the TXT file.
+- Do not add new names.
+- Do not explain yet, just list results clearly.
